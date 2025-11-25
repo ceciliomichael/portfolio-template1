@@ -1,0 +1,17 @@
+{
+  "deployments": [
+    {
+      "name": "chroma-attack",
+      "repository": "https://github.com/ceciliomichael/chroma-attack",
+      "branch": "main",
+      "status": "building",
+      "framework": "Next.js",
+      "buildCommand": "npm run build",
+      "outputDir": ".next",
+      "id": "fe337517-87fa-45e8-ae7c-6e283bb707ba",
+      "createdAt": "2025-11-25T06:16:51.452Z",
+      "updatedAt": "2025-11-25T06:16:51.452Z"
+    }
+  ],
+  "projects": []
+}
