@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button"
 import { Mail, MapPin, Calendar, Download, User, Code, Heart } from "lucide-react"
 
 const personalInfo = [
-  { icon: User, label: "Name", value: "John Doe" },
+  { icon: User, label: "Name", value: "Alex Morgan" },
   { icon: MapPin, label: "Location", value: "San Francisco, CA" },
-  { icon: Mail, label: "Email", value: "john.doe@example.com" },
+  { icon: Mail, label: "Email", value: "alex.morgan@example.com" },
   { icon: Calendar, label: "Experience", value: "5+ Years" },
 ]
 

@@ -20,7 +20,7 @@ const contactSchema = z.object({
 type ContactFormData = z.infer<typeof contactSchema>
 
 const contactInfo = [
-  { icon: Mail, label: "Email", value: "john.doe@example.com", href: "mailto:john.doe@example.com" },
+  { icon: Mail, label: "Email", value: "alex.morgan@example.com", href: "mailto:alex.morgan@example.com" },
   { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
   { icon: MapPin, label: "Location", value: "San Francisco, CA", href: "#" },
 ]
@@ -81,7 +81,7 @@ export function ContactForm({ onSubmit }: ContactFormProps) {
                   type="text"
                   id="name"
                   className="w-full px-3 py-2 border border-input rounded-md bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                  placeholder="John Doe"
+                  placeholder="Your Name"
                 />
                 {errors.name && (
                   <p className="text-sm text-destructive mt-1">{errors.name.message}</p>
